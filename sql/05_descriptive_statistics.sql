@@ -1,13 +1,3 @@
--- Section: Descriptive Statistics (EDA)
--- Purpose:
---   This script computes descriptive statistics for key telecom
---   activity metrics (SMS, calls, internet) to understand
---   distributional properties before modeling.
--- Description:
---   The outputs support exploratory data analysis and data quality
---   assessment, and are independent from the outlier detection pipeline.
-
-
 
 -- SECTION: DESCRIPTIVE STATISTICS
 -- ============================================================================
@@ -118,6 +108,8 @@ SELECT
   MIN(sms_in + sms_out + call_in + call_out + internet) AS min_value,
   MAX(sms_in + sms_out + call_in + call_out + internet) AS max_value
 FROM `ndn-project-485520.telecom_italy_data.sms_call_internet_mi_all_days_flagged`;
+
+
 
 -- 1.3: Activity type distribution (percentage share)
 -- This table shows the proportional contribution of
