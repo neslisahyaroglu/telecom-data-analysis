@@ -8,6 +8,7 @@
 -- KPI:
 -- Province Day Type Behavior
 
+CREATE OR REPLACE TABLE `ndn-project-485520.telecom_italy_data.province_with_daytype` AS
 SELECT
   datetime,
   date,
