@@ -51,6 +51,6 @@ Each script builds on the previous outputs to ensure a consistent and traceable 
 - This repository represents ongoing analytical work and is maintained as a feature branch.
 - Outputs from these scripts are intended to support reporting and further visualization efforts.
 
-Veri tabanı sorguları ve analiz SQL'leri burada tutulur.
+
 
 
