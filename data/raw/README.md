@@ -1,12 +1,11 @@
-### Data Availability
+## Raw Data
 
-Ham (orijinal) veriler burada tutulur.
+The raw telecom network dataset used in this project is publicly available on Kaggle
+and is not included in this repository due to its large size (~1.5GB).
 
-data link:
+🔗 Dataset source:
+https://www.kaggle.com/datasets/xxxx/telecom-network-data
 
-https://www.kaggle.com/datasets/marcodena/mobile-phone-activity
-
-Raw telecom network data (~1.5GB) is not included in this repository
-due to GitHub size limitations.
-
-Processed and aggregated datasets are provided for reproducibility.
+To reproduce the analysis:
+1. Download the dataset from Kaggle
+2. Extract the files into this folder: data/raw/
